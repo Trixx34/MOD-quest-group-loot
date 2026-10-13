@@ -1,0 +1,12 @@
+# Settings for the quest-group-loot module. Copy this file to worldserver.conf.d/modules.d/quest-group-loot.conf (under the config
+# directory). The core loads every .conf file under worldserver.conf.d at start-up and sends each Module.quest-group-loot.<Key> entry
+# to the module, with the prefix removed.
+
+# How far from the looter, in yards, a party member may be to receive a copy. 0 uses the core's default (100). At most 200.
+Module.quest-group-loot.RangeYards = 0
+
+# Tell the looter how many party members were given the item ("Shared [Item] with 2 party members."). 1 = yes, 0 = no.
+Module.quest-group-loot.NotifyLooter = 1
+
+# Quest item entries that are never shared. Comma-separated.
+Module.quest-group-loot.ExcludedItemIds = ""
