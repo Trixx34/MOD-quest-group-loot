@@ -12,6 +12,12 @@ The module listens for `PlayerScript.OnLootItem`, and for a quest item (item cla
 
 If anyone was given the item, the looter gets a message: `Shared [Item Name] with 2 party members.`
 
+## Status
+
+The share policy and the settings parser are unit-tested, and the SDK's round-trip test covers the module's request and the core's reply
+(with the recipient count). The core's share action has not been compiled or run on a server yet, so the module has not shared a real
+item. Bots in a party are covered by the same path (the loot event fires for them too), but bots have no quests yet.
+
 ## Needs
 
 The SDK with `ShareQuestItem` (branch `m7-quest-share-sdk`) and a core with the share action (branch `m7-quest-share-core`).
