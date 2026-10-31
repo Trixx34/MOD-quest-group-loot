@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: GPL-2.0-or-later
 // quest-group-loot: when a party member loots a quest item, the other party members who still need it receive a copy.
 //
 // Usage: quest-group-loot <tier1-endpoint>. The core passes the endpoint when it spawns the module. The module only notices the

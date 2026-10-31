@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: GPL-2.0-or-later
 // Decides which looted items are shared with the party, and formats the message to the looter. No SDK or core
 // needed, so it is unit-tested (tests/policy_test.cpp).
 #pragma once

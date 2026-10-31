@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: GPL-2.0-or-later
 // Unit tests for ParseShareSettings. No core needed.
 #include "share_settings.h"
 

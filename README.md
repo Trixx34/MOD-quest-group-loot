@@ -32,3 +32,8 @@ See `config/modules.d/quest-group-loot.conf.example`: `RangeYards` (0 = core def
     cmake -S . -B build -DFOREVER_MODULE_SDK_SOURCE=<path to forever-module-sdk>
     cmake --build build
     ctest --test-dir build
+
+## License
+
+This project is licensed under the GNU General Public License, version 2 or (at your option) any later version (`GPL-2.0-or-later`, see `LICENSE`).
+It is part of the Forever server, a fork of TrinityCore (GPL-2.0). Source files carry an SPDX identifier.

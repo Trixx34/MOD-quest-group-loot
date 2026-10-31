@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: GPL-2.0-or-later
 // Reads the module's settings from the config entries the core sends (Module.quest-group-loot.<Key>, prefix removed).
 // A bad value keeps the default and adds a warning. No SDK or core needed (tests/settings_test.cpp).
 #pragma once

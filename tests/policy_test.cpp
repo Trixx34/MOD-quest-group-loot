@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: GPL-2.0-or-later
 // Unit tests for the share policy. No core needed.
 #include "share_policy.h"
 
