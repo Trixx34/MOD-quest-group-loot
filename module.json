@@ -1,7 +1,7 @@
 {
   "name": "quest-group-loot",
-  "version": "0.1.0",
-  "protocol_version": "20",
+  "version": "0.2.0",
+  "protocol_version": "21",
   "tier1": {
     "hooks": [
       "PlayerScript.OnLootItem"
